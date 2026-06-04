@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oslo Barbearia - Administrativo</title>
+    <link rel="stylesheet" href="../admin/admin.css">
+     <link rel="shortcut icon" href="../imagens/BARBEARIA OSLO2.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-area">
+            <img src="../imagens/icon-admin.png" alt="logo" class="admin-icon">
+            <div class="brand-titles">
+                <h1>Oslo Barbearia</h1>
+                <p>Administrativo</p>
+            </div>
+        </div>
+        <img src="../imagens/LOGO BARBEARIA.png" alt="logo" class="barber-logo">
+    </header>
+
+    <a href="../pages/index.html" class="adm-btn">← Voltar para início</a> 
+
+    <main class="container">
+        <h2 class="welcome-msg">Bem Vindo !</h2>
+        <hr class="divider">
+        
+        <p class="total-agendamentos">Total de Agendamentos: <span id="total-count">0</span></p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Horário</th>
+                        <th>Nome do Cliente</th>
+                        <th>Serviço</th>
+                        <th>Telefone</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-agendamentos">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
